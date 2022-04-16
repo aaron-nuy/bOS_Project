@@ -1,0 +1,6 @@
+Disassemble:
+    ndisasm -b 32 file > outputfile 
+    objdump -d file
+
+Make:
+    mingw32-make
